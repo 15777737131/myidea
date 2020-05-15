@@ -11,6 +11,6 @@ public class Web {
     private GitService gitService;
     @GetMapping("hello")
     public String hello(){
-        return gitService.helloGit();
+        return gitService.helloGit()+"o2o2o";
     }
 }
